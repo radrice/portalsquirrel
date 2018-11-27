@@ -52,16 +52,18 @@ class App extends Component {
                   <button
                     className="f6 grow no-underline br-pill ph3 pv2 ml2 dib white bg-hot-pink"
                     onClick={toggle}>Portal Squirrel 2</button>
-                  { on && (<div className="bg-white absolute bottom-0 right-0 flex items-center justify-center">
-                  <div className="mw5 mw7-ns center bg-light-gray pa3 ph5-ns">
-                    <iframe src="https://giphy.com/embed/oZgy3v1UMQ3QY" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/water-squirrel-oZgy3v1UMQ3QY">via GIPHY</a></p>
-                    <div>
-                      <button
-                        className="f6 grow no-underline br-pill ph3 pv2 ml2 dib white bg-hot-pink"
-                        onClick={toggle}>Enough Squirrel</button>
+                  <Portal>
+                    { on && (<div className="bg-white absolute bottom-0 right-0 flex items-center justify-center">
+                    <div className="mw5 mw7-ns center bg-light-gray pa3 ph5-ns">
+                      <iframe src="https://giphy.com/embed/oZgy3v1UMQ3QY" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/water-squirrel-oZgy3v1UMQ3QY">via GIPHY</a></p>
+                      <div>
+                        <button
+                          className="f6 grow no-underline br-pill ph3 pv2 ml2 dib white bg-hot-pink"
+                          onClick={toggle}>Enough Squirrel</button>
+                      </div>
                     </div>
-                  </div>
-                  </div>)}
+                    </div>)}
+                  </Portal>
                 </div>
               )}
             </Toggle>
