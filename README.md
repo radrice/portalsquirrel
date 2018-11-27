@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Learn about [React portals](https://reactjs.org/docs/portals.html).
+
 ### How to use
 
 1. clone
