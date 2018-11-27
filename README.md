@@ -9,7 +9,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Credits
 
-This is a super simple example of react portals as demonstrated by...
-[LevelUpTuts](https://www.youtube.com/watch?v=SVQ2l2w-zPM)
+This is a super simple example of react portals as demonstrated by  [LevelUpTuts](https://www.youtube.com/watch?v=SVQ2l2w-zPM).
 
 It also uses [tachyons](https://tachyons.io) for styles.
